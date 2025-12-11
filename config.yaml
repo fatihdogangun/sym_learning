@@ -1,0 +1,18 @@
+name: model
+state_dim: 11
+action_dim: 8
+effect_dim: 6
+hidden_dim: 128
+latent_dim: 1
+n_attention_heads: 3
+n_hidden_layers: 2
+n_objects: 4
+
+dataset_name: blocks24
+batch_size: 256
+epoch: 5
+lr: 0.0001
+gumbel_t: 1.0
+loss_coeff: 1.0
+
+devices: [0]

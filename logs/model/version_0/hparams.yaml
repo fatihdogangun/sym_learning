@@ -1,0 +1,28 @@
+config:
+  action_dim: 8
+  batch_norm: false
+  batch_size: 128
+  dataset_name: blocks24
+  devices:
+  - 0
+  effect_dim: 6
+  epoch: 4000
+  factored: false
+  gumbel_hard: false
+  gumbel_t: 1.0
+  hidden_dim: 128
+  latent_dim: 1
+  loss_coeff: 1.0
+  lr: 0.0001
+  model: attentive
+  n_attention_heads: 3
+  n_hidden_layers: 2
+  n_objects: 4
+  name: baseline3
+  noise_eps: 0.0
+  obj_relative: false
+  project: temp
+  resume: false
+  sigmoid: false
+  state_dim: 11
+  with_quat: false
